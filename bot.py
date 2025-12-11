@@ -208,9 +208,13 @@ def start_command(message):
     keyboard.add(button_channel)
     keyboard.add(button_contact1, button_contact2)
 
-    # Copyright-safe welcome message with disclaimer
+    # ENHANCED MESSAGE WITH VALUE PROPOSITION
     message_text = (
         "✈️ **Travel Planning Assistance**\n\n"
+        "💎 **Enhanced Value Planning**\n"
+        "Planning your travel through our assistance service can help identify\n"
+        "**cost-optimized strategies** and **additional value opportunities**\n"
+        "across various service providers and booking options.\n\n"
         "*Disclaimer: This service provides travel planning assistance and information. "
         "We are not affiliated with any specific airline, hotel, or travel provider.*\n\n"
         "Explore travel options and planning assistance:\n\n"
