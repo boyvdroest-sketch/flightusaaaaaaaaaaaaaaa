@@ -208,17 +208,28 @@ def start_command(message):
     keyboard.add(button_channel)
     keyboard.add(button_contact1, button_contact2)
 
-    # ENHANCED MESSAGE WITH VALUE PROPOSITION
+    # ENHANCED FIRST MESSAGE WITH STRONG IMPACT
     message_text = (
-        "✈️ **Travel Planning Assistance**\n\n"
-        "💎 **Enhanced Value Planning**\n"
-        "Planning your travel through our assistance service can help identify\n"
-        "**cost-optimized strategies** and **additional value opportunities**\n"
-        "across various service providers and booking options.\n\n"
-        "*Disclaimer: This service provides travel planning assistance and information. "
-        "We are not affiliated with any specific airline, hotel, or travel provider.*\n\n"
-        "Explore travel options and planning assistance:\n\n"
-        "Select a category for travel information:"
+        "✈️ **Discover Smart Travel Values** ✈️\n\n"
+        
+        "🌟 **EXCLUSIVE PLANNING BENEFITS** 🌟\n"
+        "Users working with our planning service regularly discover:\n"
+        "• **50%+ potential savings** on select travel components\n"
+        "• **Hidden value opportunities** not visible in standard searches\n"
+        "• **Time-optimized strategies** for busy schedules\n"
+        "• **Personalized approaches** tailored to your needs\n\n"
+        
+        "🚀 **HOW TO ACCESS THESE BENEFITS:**\n"
+        "1. Share your travel interests using categories below\n"
+        "2. Receive customized planning insights and strategies\n"
+        "3. Connect with specialists for detailed implementation\n"
+        "4. Implement discovered savings opportunities\n\n"
+        
+        "💡 *Important: Actual savings vary based on travel dates, availability, and provider policies. "
+        "This service provides planning assistance and general travel information. "
+        "We are not affiliated with specific airlines, hotels, or travel providers.*\n\n"
+        
+        "👇 **START YOUR VALUE DISCOVERY NOW:**"
     )
 
     bot.send_message(message.chat.id, message_text, reply_markup=keyboard, parse_mode='Markdown')
